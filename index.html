@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .button {
+            color: var(--color-text);
+            background: #DCE8EB;
+            border: 3px solid #fff;
+            padding: 80px 120px;
+            display: inline-block;
+            border-radius: 5px;
+            font-size: 48px;
+            font-weight: 600;
+            cursor: pointer;
+            position: absolute;
+		    left: 50%;
+		    top: 50%;
+		    transform: translate(-50%, -50%);
+        }
+
+        .button:hover {
+            background-color: #F7D9C4;
+            border-color: var(--color-two);
+            color: black;
+        }
+    </style>
+
+    <button class="button" onclick="openTab()">Nhấn vào ra trai đẹp</button>
+    <script>
+        function openTab() {
+            window.open("https://www.facebook.com/profile.php?id=100090406526657", "_blank")
+        }
+    </script>
+
+</body>
+
+</html>
